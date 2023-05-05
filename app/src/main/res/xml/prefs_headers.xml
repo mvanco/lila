@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header android:title="Quiet time settings" />
+    <header
+        android:id="@+id/multi_settings"
+        android:fragment="eu.mvanco.lila.settings.SleepingTimePrefsFragment"
+        android:tag="SleepingTimePrefsFragment"
+        android:title="Sleeping time" />
+    <header
+        android:id="@+id/sounds_settings"
+        android:fragment="eu.mvanco.lila.settings.QuietTimePrefsFragment"
+        android:tag="QuietTimePrefsFragment"
+        android:title="Presets" />
+    <header android:title="Notification settings" />
+    <header
+        android:id="@id/multi_settings"
+        android:fragment="eu.mvanco.lila.settings.NotificationPrefsFragment"
+        android:tag="NotificationPrefsFragment"
+        android:title="@string/pref_notification_title" />
+
+</preference-headers>

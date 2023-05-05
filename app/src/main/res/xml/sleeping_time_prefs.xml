@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Sleeping time" >
+    
+
+    
+
+    <PreferenceCategory android:title="@string/sett_sleeping"
+        android:key="sleeping_time"
+        android:dependency="allday" >
+
+
+        <eu.mvanco.lila.settings.SleepingTimePickerPreference
+            android:defaultValue="@string/sleeping_time_start_default"
+            android:key="alarm_time"
+            android:title="@string/sett_sleeping_from"
+            android:dependency="allday" />
+        <eu.mvanco.lila.settings.SleepingTimePickerPreference
+            android:defaultValue="@string/sleeping_time_end_default"
+            android:key="alarm_time_to"
+            android:title="@string/sett_sleeping_to"
+            android:dependency="allday" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="More...">
+            <CheckBoxPreference
+                android:key="allday"
+                android:title="All day"
+                android:defaultValue="false"
+                android:disableDependentsState="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="prefscreen">
+        
+    
+    
+        <PreferenceCategory android:title="@string/sett_sleeping">
+        <Preference android:title="Add Out Time" android:key="addOutTimeButton"></Preference>
+    <eu.mvanco.lila.TimePickerPreference
+	   android:key="alarm_time"
+	   android:title="@string/sett_sleeping_from"
+	   android:defaultValue="@string/sleeping_time_start_default"
+	   
+	    />
+    <eu.mvanco.lila.TimePickerPreference
+	   android:key="alarm_time_to"
+	   android:title="@string/sett_sleeping_to"
+	   android:defaultValue="@string/sleeping_time_end_default"
+	    />
+    
+    
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
+-->

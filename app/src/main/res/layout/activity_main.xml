@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="4dip"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button android:id="@+id/start_alarm"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:text="@string/start_alarm_service">
+        <requestFocus />
+    </Button>
+
+    <Button android:id="@+id/stop_alarm"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:text="@string/stop_alarm_service" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Quiet time" >
+
+    <Preference android:title="Add preset"
+        android:key="addQuietTimeButton" />
+
+    <PreferenceCategory android:title="Saved presets"
+        android:key="saved_pres" >
+
+       <!--   <eu.mvanco.lila.TimePickerPreference
+            android:defaultValue="@string/sleeping_time_start_default"
+            android:key="alarm_time"
+            android:title="@string/sett_sleeping_from" />
+        <eu.mvanco.lila.TimePickerPreference
+            android:defaultValue="@string/sleeping_time_end_default"
+            android:key="alarm_time_to"
+            android:title="@string/sett_sleeping_to" /> -->
+    </PreferenceCategory>
+
+</PreferenceScreen>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="prefscreen">
+        
+    
+    
+        <PreferenceCategory android:title="@string/sett_sleeping">
+        <Preference android:title="Add Out Time" android:key="addOutTimeButton"></Preference>
+    <eu.mvanco.lila.TimePickerPreference
+	   android:key="alarm_time"
+	   android:title="@string/sett_sleeping_from"
+	   android:defaultValue="@string/sleeping_time_start_default"
+	   
+	    />
+    <eu.mvanco.lila.TimePickerPreference
+	   android:key="alarm_time_to"
+	   android:title="@string/sett_sleeping_to"
+	   android:defaultValue="@string/sleeping_time_end_default"
+	    />
+    
+    
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
+-->

@@ -1,0 +1,33 @@
+<resources>
+    <!-- Used in View/Spinner1.java -->
+    
+    <!-- Used in View/Spinner1.java -->
+
+    <!-- Used in content/ClipboardSample.java -->
+
+    <!-- Used in App/SearchInvoke.java -->
+    
+    <!-- Used in app/dialog examples -->
+    
+    <string-array name="weekdays">
+        <item>Every Monday</item>
+        <item>Every Tuesday</item>
+        <item>Every Wednesday</item>
+        <item>Every Thursday</item>
+        <item>Every Friday</item>
+        <item>Every Saturday</item>
+        <item>Every Sunday</item>
+    </string-array>
+    
+    <!-- Used in app/menu examples -->
+
+    <!-- Used in app/menu examples -->
+    
+    <!-- Used in app/Sample Device Admin -->
+
+    <!-- Used in app/Screen Orientation -->
+
+    <!-- Used in view/Secure View examples -->
+
+    <!-- Used in view/Split Touch View example -->
+</resources>
